@@ -11,4 +11,4 @@ APP_SECRET=
 SUBREDDIT=
 ```
 2. Run `docker pull ghcr.io/angelsflyinhell/repost`
-3. Run `docker run -d --env-file ENV_FILE_PATH ghcr.io/angelsflyinhell/repost`
+3. Run `docker run -d --env-file ENV_FILE_PATH --name repost ghcr.io/angelsflyinhell/repost`
