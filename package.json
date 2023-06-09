@@ -17,9 +17,7 @@
     "axios": "^1.4.0",
     "dotenv": "^16.1.4",
     "node-schedule": "^2.1.1",
-    "reddit": "^1.2.1"
-  },
-  "devDependencies": {
+    "reddit": "^1.2.1",
     "@types/reddit": "^1.2.1"
   }
 }
