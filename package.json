@@ -1,0 +1,25 @@
+{
+  "name": "repost",
+  "module": "node16",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "ts-node src/index.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/axios": "^0.14.0",
+    "@types/dotenv": "^8.2.0",
+    "@types/node-schedule": "^2.1.0",
+    "axios": "^1.4.0",
+    "dotenv": "^16.1.4",
+    "node-schedule": "^2.1.1",
+    "reddit": "^1.2.1"
+  },
+  "devDependencies": {
+    "@types/reddit": "^1.2.1"
+  }
+}
